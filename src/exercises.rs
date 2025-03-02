@@ -1,15 +1,31 @@
 fn main() {
-   
+   quiz2();
 }
 
-//Exercises On Primitive Variables
+//-------------------------------------
+//Exercises On Primitive Variables//
+//-------------------------------------
 
-// Declare an integer
-// Write a Rust program that declares an integer variable named age and assigns it a value of 25.
 
+// //Quiz
+// // Declare an integer
+// // Write a Rust program that declares an integer variable named age and assigns it a value of 25.
 
+// //Ans
+// fn quiz1(){
+//   let age:i32 = 25;
+//   println!("You are {} years old", age);
+// }
+
+//Quiz
 // Floating-point variable
 // Declare a floating-point variable temperature with a value of 36.5.
+
+//Ans
+fn quiz2(){
+  let temp: f32 = 36.5;
+  println!("The temperature is {} degress",temp);
+}
 
 // Boolean variable
 // Create a boolean variable is_raining and assign it either true or false.
